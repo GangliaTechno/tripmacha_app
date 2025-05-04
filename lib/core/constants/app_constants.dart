@@ -11,7 +11,7 @@ class AppAssets
 {
   static const logo = 'assets/logo.png';
   static const homeIcon = 'assets/icons/home.png';
-  static const contactIcon = 'assets/icons/contact_us.png';
+  static const contactIcon = 'assets/icons/contact.png';
   static const planIcon = 'assets/icons/plan.png';
 
   static const mountain = 'assets/images/moutain.png';

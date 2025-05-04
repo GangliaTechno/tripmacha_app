@@ -22,13 +22,14 @@ class BottomNavBar extends GetView<HomeController> {
         ),
         items: [
           BottomNavigationBarItem(
-            icon: Image.asset(AppAssets.contactIcon, width: 24),
-            label: 'Contact Us',
-          ),
-          BottomNavigationBarItem(
             icon: Image.asset(AppAssets.homeIcon, width: 24),
             label: 'Home',
           ),
+          BottomNavigationBarItem(
+            icon: Image.asset(AppAssets.contactIcon, width: 24),
+            label: 'Contact Us',
+          ),
+
           BottomNavigationBarItem(
             icon: Image.asset(AppAssets.planIcon, width: 24),
             label: 'Plan',
