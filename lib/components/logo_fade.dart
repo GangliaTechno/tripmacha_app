@@ -10,7 +10,7 @@ class LogoFade extends GetView<SplashController>
   Widget build(BuildContext context) {
     return FadeAnimation(
       animation: controller.animation,
-      child: Image.asset(AppAssets.logo,width: 150,height:150,),
+      child: Image.asset(AppAssets.logo,width: 250,height:250,),
     );
   }
 }

@@ -15,9 +15,9 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget
       title: Row(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Image.asset(AppAssets.logo,height: 32,),
+          Image.asset(AppAssets.logo,height: 60,),
           SizedBox(width: 8,),
-          Text('TripMacha AI',style: TextStyle(color: AppColors.primary),)
+          //Text('TripMacha AI',style: TextStyle(color: AppColors.primary),)
         ],
       ),
     );
