@@ -8,7 +8,7 @@ class ContactScreen extends GetView<ContactController> {
 
   @override
   Widget build(BuildContext context) {
-    // Register the ContactController so GetView can find it
+    
     Get.put(ContactController());
 
     return Scaffold(
