@@ -1,16 +1,34 @@
-# tripmacha
+# Trip Macha App
 
-A new Flutter project.
+> A Flutter application that delivers a smooth, component‑driven travel experience, powered by **GetX** for state‑management and routing.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📂 Project Structure
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| Directory | Purpose | Key Contents |
+|-----------|---------|--------------|
+| **`assets/`** | Static resources consumed at runtime. 
+| **`lib/components/`** | **Reusable, presentation‑only widgets**. Import anywhere to keep UIs DRY. 
+| **`lib/controllers/`** | **GetX controllers**—one per screen or feature. Handle state, navigation and async work. 
+| **`lib/core/`** | **App‑wide scaffolding and utilities**. | sub‑folders below |
+| &nbsp;&nbsp;`bindings/` | **Binding classes** that register controllers & services for DI when a route loads. 
+| &nbsp;&nbsp;`constant/` | Centralised **configuration & theme** objects. | `app_constants.dart` (colour palette, text styles, etc.) |
+| &nbsp;&nbsp;`widgets/` | High‑level widgets used across multiple screens. 
+| **`lib/data/`** | **Data layer**—models, repositories, network helpers, JSON fixtures.
+| **`lib/screens/`** | **Visual layer**—layout code for each app page. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🚀 Getting Started
+
+```bash
+# 1. Install Flutter dependencies
+flutter pub get
+
+# 2. Confirm assets are registered in pubspec.yaml
+#    (logo, onboarding images, Lottie files, etc.)
+
+# 3. Run the app on an attached device/emulator
+flutter run
